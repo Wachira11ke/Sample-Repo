@@ -251,3 +251,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 ---
 [Flask Corona Dark](https://appseed.us/admin-dashboards/flask-dashboard-corona-dark) - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
 Updated 2022
+The end
