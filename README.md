@@ -45,7 +45,7 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
-## ✨ How to use it
+## ✨ How to use the code
 
 ```bash
 $ # Get the code
