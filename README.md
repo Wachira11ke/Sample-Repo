@@ -188,7 +188,7 @@ $ yarn
 $ gulp scss
 ```
 
-The generated file is saved in `static/assets/css` directory.
+The generated file is saved in `static/assets/css` Folder.
 
 <br />
 
