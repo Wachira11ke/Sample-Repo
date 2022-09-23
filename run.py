@@ -10,7 +10,7 @@ from decouple import config
 from apps.config import config_dict
 from apps import create_app, db
 
-# WARNING: Don't run with debug turned on in production!
+# WARNING: Never run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
 # The configuration
@@ -21,7 +21,7 @@ try:
     # Load the configuration using the default values
     app_config = config_dict[get_config_mode.capitalize()]
 
-except KeyError:fsdrdg
+except KeyError:
     exit('Error: Invalid <config_mode>. Expected values [Debug, Production] ')
 
 app = create_app(app_config)
